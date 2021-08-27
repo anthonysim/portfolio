@@ -11,6 +11,7 @@ anthonysim.dev
 - NextJS
 - Tailwind CSS
 - Vercel (Deployment)
+- React Icons
 
 ## Usage
 
