@@ -49,17 +49,17 @@ export default function Navbar() {
                 Home
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/portfolio'>
               <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-100 font-bold items-center justify-center  hover:text-blue-300 uppercase'>
                 Portfolio
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/about'>
               <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-200 font-bold items-center justify-center hover:text-blue-300 uppercase'>
                 About
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/contact'>
               <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-300 font-bold items-center justify-center hover:text-blue-300 uppercase'>
                 Contact
               </a>
