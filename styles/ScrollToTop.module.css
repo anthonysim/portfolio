@@ -1,0 +1,45 @@
+.button {
+  font-size: x-large;
+  position: fixed;
+  display: inline-block;
+  background-color: #6366F1;
+  width: 40px;
+  height: 30px;
+  padding-left: 7px;
+  padding-top: 4px;
+
+  text-align: center;
+  border-radius: 4px;
+  bottom: 30px;
+  right: 40px;
+  z-index: 1000;
+  color: #f8f8ff;
+}
+
+.button::after {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #C7D2FE;
+}
+
+.button:hover {
+  cursor: pointer;
+  /* background-color: #A5B4FC; */
+  color: #fff;
+}
+
+.button:active {
+  background-color: #C7D2FE;
+}
+
+.button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* .scrollUpButton {
+  width: 100%;
+  text-align: center;
+} */

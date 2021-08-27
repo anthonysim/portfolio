@@ -8,6 +8,7 @@ import { AiOutlineMail } from "react-icons/ai";
 export default function Footer() {
   return (
     <div>
+
       <footer className={styles.footer}>
         <div className="flex text-3xl space-x-8 justify-center pt-4">
           <a target="_blank" rel="noreferrer" href="https://github.com/anthonysim">
