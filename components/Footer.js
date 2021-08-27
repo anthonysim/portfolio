@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <div>
       <footer className={styles.footer}>
-        <div className="flex text-3xl space-x-8 justify-center pt-3">
+        <div className="flex text-3xl space-x-8 justify-center pt-4">
           <a target="_blank" rel="noreferrer" href="https://github.com/anthonysim">
             <FaGithub />
           </a>
@@ -20,8 +20,7 @@ export default function Footer() {
             <AiOutlineMail />
           </a>
         </div>
-        <br />
-        <div>© 2021 Anthony Sim | Forgetful SE</div>
+        <div className="pt-4">© 2021 Anthony Sim | Forgetful SE</div>
       </footer>
     </div >
   )

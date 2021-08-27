@@ -27,6 +27,7 @@
   justify-content: center;
   align-items: center;
   background-color: black;
+  opacity: 80%;
 }
 
 /* .footer a {
@@ -36,10 +37,10 @@
   flex-grow: 1;
 } */
 
-.logo {
+/* .logo {
   height: 1em;
   margin-left: 0.5rem;
-}
+} */
 
 @media (max-width: 600px) {
   .grid {
