@@ -9,11 +9,6 @@ function MyApp({ Component, pageProps }) {
       <Navbar />
       <Component {...pageProps} />
       <ScrollToTop />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <Footer />
     </div>
   )

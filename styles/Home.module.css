@@ -17,6 +17,9 @@
   align-items: center;
 }
 
+
+/* FOOTER */
+
 .footer {
   text-align: center;
   color: white;
@@ -41,6 +44,13 @@
   height: 1em;
   margin-left: 0.5rem;
 } */
+
+/* THANK YOU MESSAGE AFTER SUBMITTING A CONTACT MESSAGE */
+
+.thankyou {
+  font-size: 45px;
+  font-family: 'Raleway', sans-serif;
+}
 
 @media (max-width: 600px) {
   .grid {

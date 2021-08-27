@@ -12,6 +12,8 @@ anthonysim.dev
 - Tailwind CSS
 - Vercel (Deployment)
 - React Icons
+- nodemailer
+- axios
 
 ## Usage
 
