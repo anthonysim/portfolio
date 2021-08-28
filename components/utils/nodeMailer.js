@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export default function nodeMailer(data) {
+export default function nodeMailer(data, setThankyou) {
   if (data.firstName === ''
     || data.lastName === ''
     || data.email === ''
@@ -8,7 +8,11 @@ export default function nodeMailer(data) {
     alert('Please fill out all fields.');
   } else {
     axios.post('/api/contact', data)
-      .then(res => console.log(res))
+      .then(res => {
+        console.log(res);
+        setThankyou(true);
+        setTimeout(() => setThankyou(false), 3750);
+      })
       .catch(err => console.error(err));
   }
 };

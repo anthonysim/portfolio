@@ -20,7 +20,7 @@ export default function Navbar() {
           </a>
         </Link>
         <button
-          className=' inline-flex p-3 hover:bg-indigo-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none'
+          className=' inline-flex p-3 hover:bg-blue-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none'
           onClick={handleClick}
         >
         </button>
@@ -31,22 +31,22 @@ export default function Navbar() {
         >
           <div className='pr-12 lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
             <Link href='/'>
-              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-50 font-bold items-center justify-center  hover:text-indigo-300 uppercase'>
+              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-50 font-bold items-center justify-center  hover:text-blue-500 uppercase'>
                 Home
               </a>
             </Link>
             <Link href='/portfolio'>
-              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-100 font-bold items-center justify-center hover:text-indigo-300 uppercase'>
+              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-100 font-bold items-center justify-center hover:text-blue-500 uppercase'>
                 Portfolio
               </a>
             </Link>
             <Link href='/about'>
-              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-200 font-bold items-center justify-center hover:text-indigo-300 uppercase'>
+              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-200 font-bold items-center justify-center hover:text-blue-500 uppercase'>
                 About
               </a>
             </Link>
             <Link href='/contact'>
-              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-300 font-bold items-center justify-center hover:text-indigo-300 uppercase'>
+              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-300 font-bold items-center justify-center hover:text-blue-500 uppercase'>
                 Contact
               </a>
             </Link>

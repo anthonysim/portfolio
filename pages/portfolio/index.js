@@ -13,13 +13,8 @@ export default function Portfolio() {
         <meta name="description" content="Anthony Sim Portfolio Site" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
-        <span className="text-indigo-600">Projects</span>
+      <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900 pt-44">
+        <span className="text-blue-600">Projects</span>
       </h3>
       <br />
       <br />

@@ -22,9 +22,7 @@ export default function Contact() {
       message: messageInput.current.value,
     }
 
-    nodeMailer(data);
-    setThankyou(true);
-    setTimeout(() => setThankyou(false), 2750);
+    nodeMailer(data, setThankyou);
 
     firstNameInput.current.value = '';
     lastNameInput.current.value = '';
@@ -44,8 +42,8 @@ export default function Contact() {
           <div className="text-center mb-16">
 
             {/* GET IN TOUCH / THANK YOU  MESSAGE*/}
-            {!thankyou ? <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">Get In <span className="text-indigo-600">Touch</span>
-            </h3> : <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">Thank You for Your <span className="text-indigo-600">Message!</span>
+            {!thankyou ? <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">Get In <span className="text-blue-600">Touch</span>
+            </h3> : <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">Thank You for Your <span className="text-blue-600">Message!</span>
             </h3>}
           </div>
 
@@ -90,7 +88,7 @@ export default function Contact() {
                     </span>
                   </label>
                 </div>
-                <button onClick={onButtonClick} className="shadow bg-indigo-600 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded" type="submit">
+                <button onClick={onButtonClick} className="shadow bg-blue-600 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded" type="submit">
                   Send Message
                 </button>
               </div>
