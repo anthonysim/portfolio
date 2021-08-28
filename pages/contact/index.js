@@ -14,7 +14,6 @@ export default function Contact() {
 
   const onButtonClick = (e) => {
     e.preventDefault();
-
     const data = {
       firstName: firstNameInput.current.value,
       lastName: lastNameInput.current.value,
@@ -29,7 +28,7 @@ export default function Contact() {
       alert('Please fill out all fields.');
     } else {
       axios.post('/api/contact', data)
-        .then(res => console.log(res.status))
+        .then(res => console.log(res))
         .catch(err => console.error(err));
 
       firstNameInput.current.value = '';
