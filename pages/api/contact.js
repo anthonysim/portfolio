@@ -36,7 +36,7 @@ export default async function handler(req, res) {
   });
 }
 
-
+// weird error message from nextjs even though POST was successful.
 export const config = {
   api: {
     externalResolver: true,
