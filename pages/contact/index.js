@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
-import axios from 'axios';
+import nodeMailer from '../../components/utils/nodeMailer.js';
 import styles from '../../styles/Home.module.css';
 
 
@@ -22,24 +22,14 @@ export default function Contact() {
       message: messageInput.current.value,
     }
 
-    if (data.firstName === ''
-      || data.lastName === ''
-      || data.email === ''
-      || data.firstName === '') {
-      alert('Please fill out all fields.');
-    } else {
-      axios.post('/api/contact', data)
-        .then(res => console.log(res))
-        .catch(err => console.error(err));
+    nodeMailer(data);
+    setThankyou(true);
+    setTimeout(() => setThankyou(false), 2750);
 
-      firstNameInput.current.value = '';
-      lastNameInput.current.value = '';
-      emailInput.current.value = '';
-      messageInput.current.value = '';
-
-      setThankyou(true);
-      setTimeout(() => setThankyou(false), 2500);
-    }
+    firstNameInput.current.value = '';
+    lastNameInput.current.value = '';
+    emailInput.current.value = '';
+    messageInput.current.value = '';
   };
 
   return (
@@ -52,12 +42,15 @@ export default function Contact() {
       <main className={styles.main}>
         <div className="max-w-screen-md mx-auto p-5">
           <div className="text-center mb-16">
+
+            {/* GET IN TOUCH / THANK YOU  MESSAGE*/}
             {!thankyou ? <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">Get In <span className="text-indigo-600">Touch</span>
             </h3> : <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">Thank You for Your <span className="text-indigo-600">Message!</span>
             </h3>}
           </div>
 
-          <form className="w-full">
+          {/* FORM */}
+          {!thankyou && <form className="w-full">
             <div className="flex flex-wrap -mx-3 mb-6">
               <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-first-name">
@@ -80,7 +73,6 @@ export default function Contact() {
                 <input ref={emailInput} className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-email" type="email" placeholder="********@*****.**" required />
               </div>
             </div>
-
             <div className="flex flex-wrap -mx-3 mb-6">
               <div className="w-full px-3">
                 <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-password">
@@ -103,7 +95,7 @@ export default function Contact() {
                 </button>
               </div>
             </div>
-          </form>
+          </form>}
         </div>
       </main>
     </div>
