@@ -59,7 +59,7 @@ export default function Cards() {
             {/* Factory Links */}
             <div className="flex justify-center">
               <FaGithub style={{ paddingTop: '2px' }} />
-              <a target="_blank" rel="noreferrer" href="https://github.com/rpt26-fec-pathfinder/anthony-photo-gallery-service">&nbsp;
+              <a target="_blank" rel="noreferrer" href="https://github.com/rpt26-sdc-factory/anthony-titleBanner-service">&nbsp;
                 <span className="underline font-extrabold text-blue-600">Github</span>
               </a>
             </div>
