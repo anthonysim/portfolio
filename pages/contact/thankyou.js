@@ -14,7 +14,7 @@ export default function ThankYou() {
       </Head>
       <main className={styles.main}>
         <div className={styles.thankyou}>
-          <p className="text-indigo-600">Thank you, I will reply asap!</p>
+          <p className="text-indigo-600">Thank you for your message!</p>
         </div>
       </main>
     </div>

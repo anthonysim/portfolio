@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
+import axios from 'axios';
 import styles from '../../styles/Home.module.css';
 
 
@@ -13,15 +14,29 @@ export default function Contact() {
 
   const onButtonClick = (e) => {
     e.preventDefault();
-    console.log(firstNameInput.current.value);
-    console.log(lastNameInput.current.value);
-    console.log(emailInput.current.value);
-    console.log(messageInput.current.value);
 
-    firstNameInput.current.value = '';
-    lastNameInput.current.value = '';
-    emailInput.current.value = '';
-    messageInput.current.value = '';
+    const data = {
+      firstName: firstNameInput.current.value,
+      lastName: lastNameInput.current.value,
+      email: emailInput.current.value,
+      message: messageInput.current.value,
+    }
+
+    if (data.firstName === ''
+      || data.lastName === ''
+      || data.email === ''
+      || data.firstName === '') {
+      alert('Please fill out all fields.');
+    } else {
+      axios.post('/api/contact', data)
+        .then(res => console.log(res.status))
+        .catch(err => console.error(err));
+
+      firstNameInput.current.value = '';
+      lastNameInput.current.value = '';
+      emailInput.current.value = '';
+      messageInput.current.value = '';
+    }
   };
 
   return (
