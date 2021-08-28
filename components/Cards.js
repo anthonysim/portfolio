@@ -4,11 +4,17 @@ import Image from 'next/image';
 
 export default function Cards() {
   return (
-    <div className="flex space-x-5">
+    <div className="flex space-x-6">
       <div className="max-w-sm rounded overflow-hidden shadow-lg">
-        {/* <img className="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains" /> */}
+        <Image
+          src="/gallery.png"
+          alt="image gallery"
+          width={400}
+          height={250}
+          priority
+        />
         <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2">Pathfinder App</div>
+          <div className="font-bold text-xl mb-2 text-indigo-600">Pathfinder App</div>
           <p className="text-gray-700 text-base">
             Image gallery service using React for a service-orientated architecture full-stack application.
           </p>
@@ -25,9 +31,15 @@ export default function Cards() {
       </div>
 
       <div className="max-w-sm rounded overflow-hidden shadow-lg">
-        {/* <img className="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains" /> */}
+        <Image
+          src="/title.png"
+          alt="coursera title"
+          width={400}
+          height={250}
+          priority
+        />
         <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2">Factory App</div>
+          <div className="font-bold text-xl mb-2 text-indigo-600">Factory App</div>
           <p className="text-gray-700 text-base">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
           </p>

@@ -14,6 +14,7 @@ anthonysim.dev
 - React Icons
 - nodemailer
 - axios
+- aws s3
 
 ## Usage
 

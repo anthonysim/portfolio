@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Cards from '../../components/Cards';
 import styles from '../../styles/Home.module.css'
 
+
 export default function Portfolio() {
   return (
     <div className={styles.container}>
@@ -17,7 +18,9 @@ export default function Portfolio() {
       <br />
       <br />
       <br />
-      <p>Resume</p>
+      <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
+        <span className="text-indigo-600">Projects</span>
+      </h3>
       <br />
       <br />
       <Cards />
