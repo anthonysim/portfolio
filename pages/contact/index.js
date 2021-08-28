@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useState, useRef } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -7,6 +7,7 @@ import styles from '../../styles/Home.module.css';
 
 
 export default function Contact() {
+  const [thankyou, setThankyou] = useState(false);
   const firstNameInput = useRef(null);
   const lastNameInput = useRef(null);
   const emailInput = useRef(null);
@@ -35,6 +36,9 @@ export default function Contact() {
       lastNameInput.current.value = '';
       emailInput.current.value = '';
       messageInput.current.value = '';
+
+      setThankyou(true);
+      setTimeout(() => setThankyou(false), 2500);
     }
   };
 
@@ -48,9 +52,9 @@ export default function Contact() {
       <main className={styles.main}>
         <div className="max-w-screen-md mx-auto p-5">
           <div className="text-center mb-16">
-            <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
-              Get In <span className="text-indigo-600">Touch</span>
-            </h3>
+            {!thankyou ? <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">Get In <span className="text-indigo-600">Touch</span>
+            </h3> : <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">Thank You for Your <span className="text-indigo-600">Message!</span>
+            </h3>}
           </div>
 
           <form className="w-full">
