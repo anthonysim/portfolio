@@ -21,7 +21,7 @@ export default function ScrollToTop() {
   };
 
   return (
-    <div className={styles.scrollUpButton}>
+    <div>
       {isVisible && <div><a onClick={scrollToTop} className={styles.button}><FaChevronUp /></a></div>}
     </div>
   )

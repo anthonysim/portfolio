@@ -14,7 +14,6 @@ export default function Home() {
       <main className={styles.main}>
 
       </main>
-
     </div>
   )
 }
