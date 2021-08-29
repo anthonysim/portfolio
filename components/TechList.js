@@ -15,10 +15,10 @@ export default function TechList() {
       <div className="grid grid-flow-row grid-cols-4 gap-x-20 gap-y-2">
         {/* Titles */}
         <Fade direction="up">
-          <div className="uppercase font-bold">Front-End</div>
-          <div className="uppercase font-bold">Back-End</div>
-          <div className="uppercase font-bold">Dev-Tools</div>
-          <div className="uppercase font-bold">Testing</div>
+          <div className="uppercase font-bold">{`< Front-End / >`}</div>
+          <div className="uppercase font-bold">{`< Back-End />`}</div>
+          <div className="uppercase font-bold">{`< Dev-Tools />`}</div>
+          <div className="uppercase font-bold">{`< Testing />`}</div>
 
           {/* Front-End */}
           <div>
