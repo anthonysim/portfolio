@@ -48,10 +48,8 @@ export default function Contact() {
                 <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">Get In <span className="text-blue-600">Touch</span>
                 </h3>
               </Fade>
-              : <Fade>
-                <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">Thank You for Your <span className="text-blue-600">Message!</span>
-                </h3>
-              </Fade>}
+              : <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">Thank You for Your <span className="text-blue-600">Message!</span>
+              </h3>}
           </div>
 
           {/* FORM */}

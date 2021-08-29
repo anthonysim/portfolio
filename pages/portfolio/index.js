@@ -16,9 +16,7 @@ export default function Portfolio() {
       </Head>
       <main className={styles.main}>
         <Fade duration="1500">
-          <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
-            <span className="text-blue-600">Projects</span>
-          </h3>
+          <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-blue-600">Projects</h3>
         </Fade>
         <br />
         <br />
