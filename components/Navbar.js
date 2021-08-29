@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { Fade } from "react-awesome-reveal";
 
+
 export default function Navbar() {
   const [active, setActive] = useState(false);
 
