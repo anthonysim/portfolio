@@ -7,9 +7,7 @@ import { Fade } from "react-awesome-reveal";
 function MyApp({ Component, pageProps }) {
   return (
     <div>
-      <Fade>
-        <Navbar />
-      </Fade>
+      <Navbar />
       <Component {...pageProps} />
       <ScrollToTop />
       <Footer />
