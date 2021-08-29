@@ -5,8 +5,8 @@ import { FaGithub, FaDesktop } from "react-icons/fa";
 
 export default function Cards() {
   return (
-    <div>
-      <div className="flex space-x-12">
+    <div >
+      <div className="md:flex md:space-x-12 sm:grid-cols-1">
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
           {/* Pathfinder */}
           <Image
@@ -34,6 +34,7 @@ export default function Cards() {
               Pathfinder is a React full-stack application for online video games purchases.
             </p>
           </div>
+          <br />
           {/* Pathfinder Tech Used */}
           <div className="px-6 pt-4 pb-2">
             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#react</span>
@@ -45,6 +46,7 @@ export default function Cards() {
             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#mongo</span>
           </div>
         </div>
+        <br />
         {/* Factory App */}
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
           <Image
@@ -81,6 +83,6 @@ export default function Cards() {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
