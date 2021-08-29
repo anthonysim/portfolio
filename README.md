@@ -7,13 +7,15 @@ anthonysim.dev
 1. [Technologies](#Technologies)
 2. [Usage](#Usage)
 
-## Technologies
+## Technologies & Packages
 - NextJS
 - Tailwind CSS
 - Vercel (Deployment)
 - React Icons
 - nodemailer
 - axios
+- validator
+- react-reveal
 
 ## Usage
 
