@@ -12,13 +12,13 @@ export default function TechList() {
       </Fade>
       <br />
       <br />
-      <div className="grid grid-flow-row grid-cols-4 gap-x-20 gap-y-2">
+      <div className="lg:grid grid-flow-row grid-cols-4 gap-x-20 gap-y-2">
         {/* Titles */}
         <Fade direction="up">
-          <div className="uppercase font-bold">{`< Front-End />`}</div>
-          <div className="uppercase font-bold">{`< Back-End />`}</div>
-          <div className="uppercase font-bold">{`< Dev-Tools />`}</div>
-          <div className="uppercase font-bold">{`< Testing />`}</div>
+          <div className="uppercase font-bold hidden lg:block">{`< Front-End />`}</div>
+          <div className="uppercase font-bold hidden lg:block">{`< Back-End />`}</div>
+          <div className="uppercase font-bold hidden lg:block">{`< Dev-Tools />`}</div>
+          <div className="uppercase font-bold hidden lg:block">{`< Testing />`}</div>
 
           {/* Front-End */}
           <div>
