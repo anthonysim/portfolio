@@ -15,7 +15,7 @@ anthonysim.dev
 - nodemailer
 - axios
 - validator
-- react-reveal
+- [react-awesome-reveal](github.com/morellodev/react-awesome-reveal)
 
 ## Usage
 
