@@ -49,7 +49,7 @@ export default function Cards() {
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
           <Image
             src="/title.png"
-            alt="coursera title"
+            alt="title"
             width={400}
             height={250}
             priority
