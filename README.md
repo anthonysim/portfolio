@@ -8,14 +8,14 @@ anthonysim.dev
 2. [Usage](#Usage)
 
 ## Technologies & Packages
-- NextJS
-- Tailwind CSS
-- Vercel (Deployment)
-- React Icons
-- nodemailer
-- axios
-- validator
+- [NextJS](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Nodemailer](https://www.npmjs.com/package/nodemailer)
+- [axios](https://github.com/axios/axios)
+- [validator](https://github.com/validatorjs/validator.js)
 - [react-awesome-reveal](https://github.com/morellodev/react-awesome-reveal)
+- [Vercel](https://vercel.com/)
 
 ## Usage
 
