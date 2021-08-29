@@ -6,7 +6,7 @@ export default function nodeMailer(data, setThankyou) {
     || data.lastName === ''
     || data.email === ''
     || data.firstName === ''
-    || validator.isEmail(data.email)) {
+    || !validator.isEmail(data.email)) {
     alert('Please fill out all fields.');
   } else {
     axios.post('/api/contact', data)

@@ -2,23 +2,24 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Fade } from "react-awesome-reveal";
+import { FaLaptop } from "react-icons/fa";
 
 
 export default function TechList() {
   return (
     <div>
       <Fade duration="1500">
-        <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-blue-600 text-center">Technologies</h3>
+        <h3 className=" flex text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-blue-600">Technologies&nbsp;&nbsp;<FaLaptop /></h3>
       </Fade>
       <br />
       <br />
       <div className="lg:grid grid-flow-row grid-cols-4 gap-x-20 gap-y-2">
         {/* Titles */}
         <Fade direction="up">
-          <div className="uppercase font-bold hidden lg:block">{`< Front-End />`}</div>
-          <div className="uppercase font-bold hidden lg:block">{`< Back-End />`}</div>
-          <div className="uppercase font-bold hidden lg:block">{`< Dev-Tools />`}</div>
+          <div className="uppercase font-bold hidden lg:block">{`< FrontEnd />`}</div>
+          <div className="uppercase font-bold hidden lg:block">{`< BackEnd />`}</div>
           <div className="uppercase font-bold hidden lg:block">{`< Testing />`}</div>
+          <div className="uppercase font-bold hidden lg:block">{`< DevTools />`}</div>
 
           {/* Front-End */}
           <div>
@@ -63,7 +64,7 @@ export default function TechList() {
           <div>
             <ul className="list-disc">
               <li>Babel</li>
-              <li>git / Github</li>
+              <li>Git / Github</li>
               <li>NPM</li>
               <li>Webpack</li>
             </ul>

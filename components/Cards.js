@@ -5,7 +5,7 @@ import { FaGithub, FaDesktop } from "react-icons/fa";
 
 export default function Cards() {
   return (
-    <div >
+    <div>
       <div className="md:flex md:space-x-12 sm:grid-cols-1">
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
           {/* Pathfinder */}
