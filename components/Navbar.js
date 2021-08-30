@@ -1,11 +1,13 @@
 import Link from 'next/link';
+import { useTheme } from 'next-themes';
 import { useState } from 'react';
 import { Fade } from "react-awesome-reveal";
-
+import { FaMoon } from "react-icons/fa";
+import { FiSun } from "react-icons/fi";
 
 export default function Navbar() {
   const [active, setActive] = useState(false);
-
+  const { theme, setTheme } = useTheme();
   const handleClick = () => {
     setActive(!active);
   };
@@ -45,6 +47,17 @@ export default function Navbar() {
             className={`${active ? '' : 'hidden'
               }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
           >
+
+            {/* LIGHT AND DARK MODE */}
+            <button
+              aria-label="Toggle Dark Mode"
+              type="button"
+              className="p-3 h-12 w-12 order-2 md:order-3"
+              onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+            >{theme === 'dark' ? <FiSun style={{ fontSize: '20px' }} /> : <FaMoon style={{ color: 'white' }} />}
+            </button>
+
+            {/* LINKS */}
             <div className='pr-12 lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
               <Link href='/'>
                 <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-50 font-bold items-center justify-center  hover:text-blue-500 uppercase'>
