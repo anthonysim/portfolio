@@ -41,11 +41,10 @@ export default function Contact() {
       <main className={styles.main}>
         <div className="max-w-screen-md mx-auto p-5">
           <div className="text-center mb-16">
-
             {/* GET IN TOUCH / THANK YOU  MESSAGE*/}
             {!thankyou
               ? <Fade duration="1500">
-                <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">Get In <span className="text-blue-600">Touch</span>
+                <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900 dark:text-white">Get In <span className="text-blue-600">Touch</span>
                 </h3>
               </Fade>
               : <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">Thank You for Your <span className="text-blue-600">Message!</span>

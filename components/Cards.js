@@ -7,7 +7,7 @@ export default function Cards() {
   return (
     <div>
       <div className="md:flex md:space-x-12 sm:grid-cols-1">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
+        <div className="dark:bg-gray-900 max-w-sm rounded overflow-hidden shadow-lg">
           {/* Pathfinder */}
           <Image
             src="/gallery.png"
@@ -48,7 +48,7 @@ export default function Cards() {
         </div>
         <br />
         {/* Factory App */}
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
+        <div className="dark:bg-gray-900 max-w-sm rounded overflow-hidden shadow-lg">
           <Image
             src="/title.png"
             alt="title"
