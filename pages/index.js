@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Anthony Sim | DEV</title>
-        <meta name="description" content="Anthony Sim Portfolio Site" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>ASIM | DEV</title>
+        <meta name="description" content="ASIM Portfolio Site" />
+        <link rel="icon" href="/AS.png" />
       </Head>
       <Intro />
       <div className={styles.container}>

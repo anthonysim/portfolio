@@ -9,9 +9,9 @@ export default function Portfolio() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Anthony Sim | Portfolio</title>
-        <meta name="description" content="Anthony Sim Portfolio Site" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>ASIM | Portfolio</title>
+        <meta name="description" content="ASIM Portfolio Site" />
+        <link rel="icon" href="/AS.png" />
       </Head>
       <main className={styles.main}>
         <Fade duration="1500">

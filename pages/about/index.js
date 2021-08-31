@@ -7,9 +7,9 @@ export default function About() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Anthony Sim | About</title>
-        <meta name="description" content="Anthony Sim Portfolio Site" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>ASIM | About</title>
+        <meta name="description" content="ASIM Portfolio Site" />
+        <link rel="icon" href="/AS.png" />
       </Head>
 
       <main className={styles.main}>

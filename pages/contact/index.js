@@ -33,9 +33,9 @@ export default function Contact() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Anthony Sim | Contact</title>
-        <meta name="description" content="Anthony Sim Portfolio Site" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>ASIM | Contact</title>
+        <meta name="description" content="ASIM Portfolio Site" />
+        <link rel="icon" href="/AS.png" />
       </Head>
       <main className={styles.main}>
         <div className="max-w-screen-md mx-auto p-5">
