@@ -17,7 +17,7 @@ export default function Navbar() {
       <nav className=' text flex items-center flex-wrap bg-gray-900 p-3 opacity-70'>
         <Link href='/'>
           <a className='inline-flex items-center pl-12 p-2 mr-4'>
-            <span className='text-xl text-white font-bold uppercase tracking-wide'>
+            <span className='text-xl text-white hover:text-blue-400 font-bold uppercase tracking-wide'>
               Anthony Sim | DEV
             </span>
           </a>

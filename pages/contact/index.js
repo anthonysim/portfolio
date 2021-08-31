@@ -93,7 +93,7 @@ export default function Contact() {
                         </span>
                       </label>
                     </div>
-                    <button onClick={onButtonClick} className="shadow bg-blue-600 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded" type="submit">
+                    <button onClick={onButtonClick} className="shadow bg-blue-600 hover:bg-blue-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded" type="submit">
                       Send Message
                     </button>
                   </div>
