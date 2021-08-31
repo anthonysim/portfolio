@@ -13,7 +13,7 @@ export default function About() {
       </Head>
 
       <main className={styles.main}>
-        about
+        ABOUT
       </main>
 
     </div>

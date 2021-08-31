@@ -8,16 +8,16 @@ export default function Intro() {
   return (
     <div className={styles.message}>
       <Fade duration={2500} >
-        <p className="text-6xl text-white">Anthony Sim</p>
+        <p className="text-6xl font-bold">Anthony <span className="text-blue-600">Sim</span></p>
       </Fade>
-      <Fade duration={2500} delay={1000}>
-        <p className="text-2xl text-white">Fullstack Software Engineer</p>
+      <Fade direction="right" duration={1000} delay={1000}>
+        <p className="text-2xl "><span className="text-blue-600">Fullstack</span> Software Engineer</p>
       </Fade>
-      <Fade duration={2500} delay={2200}>
+      <Fade direction="right" duration={1000} delay={2000}>
         <div>
-          <span><a className={styles.button} target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1FVjj5WApQ9lo2VrOYyE5nc0RBZy4UcbV/view?usp=sharing">Resume</a></span>
-          <span>&nbsp;<a className={styles.button} target="_blank" rel="noreferrer" href="https://github.com/anthonysim">Github</a></span>
-          <span>&nbsp;<a className={styles.button} target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sim-anthony/">LinkedIn</a></span>
+          &nbsp;<a className={styles.button} target="_blank" rel="noreferrer" href="https://github.com/anthonysim">Github</a>
+          &nbsp;<a className={styles.button} target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sim-anthony/">LinkedIn</a>
+          <a className={styles.resumeButton} target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1FVjj5WApQ9lo2VrOYyE5nc0RBZy4UcbV/view?usp=sharing">Resume</a>
         </div>
       </Fade>
     </div >
