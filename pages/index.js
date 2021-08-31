@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import TechList from '../components/TechList';
 import Intro from '../components/Intro';
+import Logo from '../components/Logo';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -12,7 +13,9 @@ export default function Home() {
         <meta name="description" content="Anthony Sim Portfolio Site" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Intro />
+
       <div className={styles.container}>
         <main className={styles.main}>
           <TechList />
