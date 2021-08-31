@@ -5,7 +5,6 @@ import Cards from '../../components/Cards';
 import { Fade } from "react-awesome-reveal";
 import styles from '../../styles/Home.module.css'
 
-
 export default function Portfolio() {
   return (
     <div className={styles.container}>

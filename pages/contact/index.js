@@ -6,7 +6,6 @@ import { Fade } from "react-awesome-reveal";
 import nodeMailer from '../../components/utils/nodeMailer.js';
 import styles from '../../styles/Home.module.css';
 
-
 export default function Contact() {
   const [thankyou, setThankyou] = useState(false);
   const firstNameInput = useRef(null);

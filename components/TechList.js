@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { Fade } from "react-awesome-reveal";
 import { FaLaptop } from "react-icons/fa";
 
-
 export default function TechList() {
   return (
     <div>
