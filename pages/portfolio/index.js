@@ -9,7 +9,7 @@ export default function Portfolio() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>ASIM | Portfolio</title>
+        <title>Anthony Sim | Portfolio</title>
         <meta name="description" content="ASIM Portfolio Site" />
         <link rel="icon" href="/AS.png" />
       </Head>

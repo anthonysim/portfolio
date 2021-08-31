@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>ASIM | About</title>
+        <title>Anthony Sim | About</title>
         <meta name="description" content="ASIM Portfolio Site" />
         <link rel="icon" href="/AS.png" />
       </Head>

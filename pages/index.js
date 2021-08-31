@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>ASIM | DEV</title>
+        <title>Anthony Sim | DEV</title>
         <meta name="description" content="ASIM Portfolio Site" />
         <link rel="icon" href="/AS.png" />
       </Head>

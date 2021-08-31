@@ -33,7 +33,7 @@ export default function Contact() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>ASIM | Contact</title>
+        <title>Anthony Sim | Contact</title>
         <meta name="description" content="ASIM Portfolio Site" />
         <link rel="icon" href="/AS.png" />
       </Head>
