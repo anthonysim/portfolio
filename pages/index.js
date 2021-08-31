@@ -13,9 +13,7 @@ export default function Home() {
         <meta name="description" content="Anthony Sim Portfolio Site" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Intro />
-
       <div className={styles.container}>
         <main className={styles.main}>
           <TechList />

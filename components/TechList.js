@@ -6,7 +6,7 @@ import { FaLaptop } from "react-icons/fa";
 
 export default function TechList() {
   return (
-    <div>
+    <div >
       <Fade duration="1500">
         <h3 className=" flex text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-blue-600">Technologies&nbsp;&nbsp;<FaLaptop /></h3>
       </Fade>
