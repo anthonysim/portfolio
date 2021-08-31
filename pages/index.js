@@ -6,17 +6,18 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Anthony Sim | DEV</title>
         <meta name="description" content="Anthony Sim Portfolio Site" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Intro />
-      <main className={styles.main}>
-        <TechList />
-      </main>
-
+      <div className={styles.container}>
+        <main className={styles.main}>
+          <TechList />
+        </main>
+      </div>
     </div>
   )
 }

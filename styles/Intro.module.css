@@ -1,12 +1,11 @@
 .button {
-  /* display: block; */
   width: 95px;
   height: 45px;
   border: 1px solid #2563EB;
   padding: 4px;
   text-align: center;
   border-radius: 5px;
-  color: black;
+  color: white;
   font-weight: bold;
   line-height: 40px;
 }
@@ -19,6 +18,8 @@
 }
 
 .message {
-  padding: 250px 750px 0px 0px;
+  padding: 250px 0px 0px 100px;
+  background-color: black;
+  height: 100vh;
 }
 
