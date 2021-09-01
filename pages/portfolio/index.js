@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Cards from '../../components/Cards';
 import { Fade } from "react-awesome-reveal";
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/Home.module.css';
 
 export default function Portfolio() {
   return (
@@ -19,9 +19,7 @@ export default function Portfolio() {
         </Fade>
         <br />
         <br />
-        <Fade Fade duration="1500">
-          <Cards />
-        </Fade>
+        <Cards />
       </main>
     </div >
   )
