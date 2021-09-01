@@ -22,7 +22,7 @@ export default function About() {
           <div className="flex flex-wrap -mx-4">
             <div className="md:w-1/3 px-3 mb-3">
               <Image className="rounded shadow-md" src="/berlin.jpg" width={400}
-                height={250} alt="berlin" />
+                height={250} alt="berlin" priority />
             </div>
             <div className="md:w-1/3 px-3 mb-3">
               <Image className="rounded shadow-md" src="/bitcoin.jpg" width={400}
@@ -33,21 +33,6 @@ export default function About() {
                 height={250} alt="coding" priority />
             </div>
             <div className="md:w-1/3 px-3 mb-3">
-              <Image className="rounded shadow-md" src="/london.jpg" width={400}
-                height={250} alt="london" />
-            </div>
-            <div className="md:w-1/3 px-3 mb-3">
-              <Image className="rounded shadow-md" src="/ocean.jpg" width={400}
-                height={250} alt="ocean" />
-            </div>
-            <div className="md:w-1/3 px-3 mb-3">
-              <Image className="rounded shadow-md" src="/oregon.jpg" width={400}
-                height={250} alt="oregon" />
-            </div>
-            <div className="md:w-1/3 px-3 mb-3">
-              <Image className="rounded shadow-md" src="/rain.jpg" width={400}
-                height={250} alt="rain" />
-            </div><div className="md:w-1/3 px-3 mb-3">
               <Image className="rounded shadow-md" src="/san-fran.jpg" width={400}
                 height={250} alt="san-fran" />
             </div>
@@ -56,20 +41,12 @@ export default function About() {
                 height={250} alt="steak" />
             </div>
             <div className="md:w-1/3 px-3 mb-3">
-              <Image className="rounded shadow-md" src="/sweden.jpg" width={400}
-                height={250} alt="sweden" />
-            </div>
-            <div className="md:w-1/3 px-3 mb-3">
               <Image className="rounded shadow-md" src="/tacos.jpg" width={400}
                 height={250} alt="tacos" />
-            </div>
-            <div className="md:w-1/3 px-3 mb-3">
-              <Image className="rounded shadow-md" src="/travel.jpg" width={400}
-                height={250} alt="travel" />
             </div>
           </div>
         </section>
       </main>
-    </div>
+    </div >
   )
 }
