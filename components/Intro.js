@@ -24,7 +24,7 @@ export default function Intro() {
             </div>
           </Fade>
         </div >
-        {/* <Logo /> */}
+        <Logo />
       </div>
     </div>
   )

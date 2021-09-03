@@ -1,7 +1,7 @@
 .logo {
   font-size: 100px;
   text-align: center;
-  margin-top: 100px;
-  margin-left: 180px;
   border: 1px solid black;
+  width: 700px;
+  margin: 100px 0px 100px 300px;
 }

@@ -18,7 +18,7 @@ export default function Navbar() {
         <Link href='/'>
           <a className='inline-flex items-center pl-12 p-2 mr-4'>
             <span className='text-xl text-white hover:text-blue-400 font-bold uppercase tracking-wide'>
-              Anthony Sim | DEV
+              {'< AnthonySim />'}
             </span>
           </a>
         </Link>
