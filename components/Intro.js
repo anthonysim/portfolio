@@ -20,7 +20,7 @@ export default function Intro() {
             <div>
               <a className={styles.button} target="_blank" rel="noreferrer" href="https://github.com/anthonysim">Github</a>
               &nbsp;<a className={styles.button} target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sim-anthony/">LinkedIn</a>
-              <a className={styles.resumeButton} target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1FVjj5WApQ9lo2VrOYyE5nc0RBZy4UcbV/view?usp=sharing">Resume</a>
+              <a className={styles.resumeButton} target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1AVnJkSpwXAqHDpWA2GHzBACInMzAmbNF/view?usp=sharing">Resume</a>
             </div>
           </Fade>
         </div >
