@@ -2,10 +2,10 @@ import Head from 'next/head';
 import Image from 'next/image';
 import TechList from '../components/TechList';
 import Intro from '../components/Intro';
-import Logo from '../components/Logo';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
+
   return (
     <div>
       <Head>
@@ -16,7 +16,6 @@ export default function Home() {
       <Intro />
       <div className={styles.container}>
         <main className={styles.main}>
-
           <TechList />
         </main>
       </div>

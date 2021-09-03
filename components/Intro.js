@@ -1,16 +1,14 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
-import Logo from './Logo';
+import Background from './Background';
 import { Fade } from "react-awesome-reveal";
 import styles from '../styles/Intro.module.css';
 
-
 export default function Intro() {
   return (
-    <div className="dark:bg-gray-900 bg-gray-200">
-      fdsfdf
-      <div className="md:flex">
+    <div className="background dark:bg-gray-900 bg-indigo-200 relative">
+      <div className="md:flex relative">
         <div className={styles.message}>
           <Fade duration={2500} >
             <p className="text-6xl font-bold">Anthony <span className="text-blue-600">Sim</span></p>
@@ -26,8 +24,8 @@ export default function Intro() {
             </div>
           </Fade>
         </div >
-        {/* <Logo /> */}
       </div>
+      <Background />
     </div>
   )
 }
