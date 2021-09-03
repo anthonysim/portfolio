@@ -16,6 +16,7 @@ export default function Home() {
       <Intro />
       <div className={styles.container}>
         <main className={styles.main}>
+
           <TechList />
         </main>
       </div>

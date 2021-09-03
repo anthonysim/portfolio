@@ -34,10 +34,13 @@
 }
 
 .message {
-  margin-left: 100px;
-  padding: 250px 0px 15px 80px;
+  padding-top: 275px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  /* margin-left: 100px; */
+  /* padding: 250px 0px 15px 80px; */
     /* position: relative; */
   /* border-bottom: 1px solid #eaeaea; */
   height: 100vh;
-
 }

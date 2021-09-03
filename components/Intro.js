@@ -5,9 +5,11 @@ import Logo from './Logo';
 import { Fade } from "react-awesome-reveal";
 import styles from '../styles/Intro.module.css';
 
+
 export default function Intro() {
   return (
     <div className="dark:bg-gray-900 bg-gray-200">
+      fdsfdf
       <div className="md:flex">
         <div className={styles.message}>
           <Fade duration={2500} >
@@ -24,7 +26,7 @@ export default function Intro() {
             </div>
           </Fade>
         </div >
-        <Logo />
+        {/* <Logo /> */}
       </div>
     </div>
   )
