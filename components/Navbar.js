@@ -14,7 +14,7 @@ export default function Navbar() {
   // bg-gray-900 p-3 opacity-80
   return (
     <div>
-      <nav className='text flex items-center flex-wrap p-3 bg-blue-600 dark:bg-gray-900'>
+      <nav className='text flex items-center flex-wrap p-3 bg-blue-600 dark:bg-gray-900 relative'>
         <Link href='/'>
           <a className='inline-flex items-center pl-12 p-2 mr-4'>
             <span className='text-xl text-white dark:hover:text-blue-600 hover:text-black font-bold uppercase tracking-wide'>
@@ -51,7 +51,7 @@ export default function Navbar() {
           <button
             aria-label="Toggle Dark Mode"
             type="button"
-            className="p-3 h-12 w-12 order-2 md:order-3"
+            className="pl-12 lg:p-0 h-12 w-12 order-2 md:order-3"
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
           >{theme === 'dark' ? <FiSun style={{ fontSize: '20px' }} /> : <FaMoon style={{ color: 'white' }} />}
           </button>

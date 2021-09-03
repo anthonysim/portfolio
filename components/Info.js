@@ -6,7 +6,7 @@ export default function Info() {
     <div className="grid md:grid-cols-2 sm:grid-cols-1 place-items-center">
       <div >
         <Image className="rounded-full border border-gray-100 shadow-sm" src="/me.jpg" width={200}
-          height={200} alt="berlin" priority />
+          height={200} alt="me" priority />
       </div>
       <div>
         <p>Hello, my name is Anthony Sim, I am a Fullstack</p>

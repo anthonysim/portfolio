@@ -1,6 +1,6 @@
 ## Anthony Sim's Portfolio Site
 
-anthonysim.dev
+- [anthonysim.dev](https://anthonysim.dev)
 
 ## Table of Contents
 
@@ -16,11 +16,13 @@ anthonysim.dev
 - [axios](https://github.com/axios/axios)
 - [validator](https://github.com/validatorjs/validator.js)
 - [react-awesome-reveal](https://github.com/morellodev/react-awesome-reveal)
+- [react-particles-js](https://www.npmjs.com/package/react-particles-js)
 - [Vercel](https://vercel.com)
 
 ## Usage
-
 ```bash
+git clone repo
+npm install
 npm run dev
 # or
 yarn dev
