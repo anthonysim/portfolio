@@ -5,7 +5,7 @@ export default function Gallery() {
   return (
     <div>
       <section className="pt-8 px-4">
-        <div className="flex flex-wrap lg:px-40">
+        <div className="flex flex-wrap lg:px-40 sm:px-28">
           <div className="md:w-1/3 px-3  mb-5 lg:mb-10">
             <Image className="rounded shadow-md" src="/berlin.jpg" width={400}
               height={250} alt="berlin" priority />

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Info() {
   return (
-    <div className="grid grid-cols-2 place-items-center">
+    <div className="grid md:grid-cols-2 sm:grid-cols-1 place-items-center">
       <div >
         <Image className="rounded-full border border-gray-100 shadow-sm" src="/me.jpg" width={200}
           height={200} alt="berlin" priority />

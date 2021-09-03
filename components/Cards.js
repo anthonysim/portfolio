@@ -8,7 +8,7 @@ export default function Cards() {
   return (
     <div>
       <Fade duration="1500">
-        <div className="md:flex md:space-x-12 sm:grid-cols-1">
+        <div className="md:flex md:space-x-12 sm:grid-cols-1 place-items-center">
           <div className="dark:bg-gray-900 max-w-sm rounded overflow-hidden shadow-lg">
             {/* Pathfinder */}
             <Image
