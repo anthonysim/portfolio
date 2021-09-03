@@ -48,6 +48,7 @@ export default function Cards() {
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">mongo</span>
             </div>
           </div>
+          <br />
 
           {/* Factory App */}
           <div className="dark:bg-gray-900 max-w-sm rounded overflow-hidden shadow-lg">
