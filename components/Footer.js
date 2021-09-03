@@ -7,7 +7,7 @@ import { AiOutlineMail } from "react-icons/ai";
 
 export default function Footer() {
   return (
-    <div className="dark:bg-gray-900 bg-gray-900 opacity-80">
+    <div className="dark:bg-gray-900 bg-gray-900">
       <footer className={styles.footer}>
         <div className="text-white flex text-3xl space-x-8 justify-center pt-4">
           <a target="_blank" rel="noreferrer" href="https://github.com/anthonysim">

@@ -1,5 +1,5 @@
 .button {
-  background-color: #008ce9;
+  background-color: #3aa0e4;
   width: 95px;
   height: 45px;
   padding: 4px;
@@ -10,13 +10,13 @@
 }
 
 .button:hover {
-  background-color: #90d2fd;
+  background-color: #71b7e6;
   transition: all .4s ease;
 -webkit-transition: all .4s ease;
 }
 
 .resumeButton {
-  background-color: #008ce9;
+  background-color: #1b18ce;
   width: 95px;
   height: 45px;
   padding: 4px;
@@ -28,14 +28,14 @@
 }
 
 .resumeButton:hover {
-  background-color: #90d2fd;
+  background-color: #5452e7;
   transition: all .4s ease;
 -webkit-transition: all .4s ease;
 }
 
 .message {
   position: absolute;
-  padding-top: 275px;
+  padding-top: 190px;
   text-align: center;
   width: 100%;
   margin: auto;

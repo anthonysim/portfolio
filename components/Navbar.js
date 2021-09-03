@@ -11,13 +11,13 @@ export default function Navbar() {
   const handleClick = () => {
     setActive(!active);
   };
-
+  // bg-gray-900 p-3 opacity-80
   return (
     <div>
-      <nav className='text flex items-center flex-wrap bg-gray-900 p-3 opacity-80'>
+      <nav className='text flex items-center flex-wrap p-3 bg-blue-600 dark:bg-gray-900'>
         <Link href='/'>
           <a className='inline-flex items-center pl-12 p-2 mr-4'>
-            <span className='text-xl text-white hover:text-blue-400 font-bold uppercase tracking-wide'>
+            <span className='text-xl text-white dark:hover:text-blue-600 hover:text-black font-bold uppercase tracking-wide'>
               {'< AnthonySim />'}
             </span>
           </a>
@@ -59,22 +59,22 @@ export default function Navbar() {
           {/* LINKS */}
           <div className='pr-12 lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
             <Link href='/'>
-              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-50 font-bold items-center justify-center  hover:text-blue-500 uppercase'>
+              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-50 font-bold items-center justify-center  dark:hover:text-blue-600 hover:text-black uppercase'>
                 Home
               </a>
             </Link>
             <Link href='/portfolio'>
-              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-100 font-bold items-center justify-center hover:text-blue-500 uppercase'>
+              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-100 font-bold items-center justify-center dark:hover:text-blue-600 hover:text-black uppercase'>
                 Portfolio
               </a>
             </Link>
             <Link href='/about'>
-              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-200 font-bold items-center justify-center hover:text-blue-500 uppercase'>
+              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-200 font-bold items-center justify-center dark:hover:text-blue-600 hover:text-black uppercase'>
                 About
               </a>
             </Link>
             <Link href='/contact'>
-              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-300 font-bold items-center justify-center hover:text-blue-500 uppercase'>
+              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-200 font-bold items-center justify-center dark:hover:text-blue-600 hover:text-black uppercase'>
                 Contact
               </a>
             </Link>

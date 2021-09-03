@@ -8,11 +8,11 @@ export default function Gallery() {
         <div className="flex flex-wrap lg:px-40">
           <div className="md:w-1/3 px-3  mb-5 lg:mb-10">
             <Image className="rounded shadow-md" src="/berlin.jpg" width={400}
-              height={250} alt="berlin" />
+              height={250} alt="berlin" priority />
           </div>
           <div className="md:w-1/3 px-3 mb-3">
             <Image className="rounded shadow-md" src="/book.jpg" width={400}
-              height={250} alt="book" />
+              height={250} alt="book" priority />
           </div>
           <div className="md:w-1/3 px-3 mb-3">
             <Image className="rounded shadow-md" src="/saving.jpg" width={400}
@@ -24,7 +24,7 @@ export default function Gallery() {
           </div>
           <div className="md:w-1/3 px-3 mb-3">
             <Image className="rounded shadow-md" src="/coding.jpg" width={400}
-              height={250} alt="coding" priority />
+              height={250} alt="coding" />
           </div>
           <div className="md:w-1/3 px-3 mb-3">
             <Image className="rounded shadow-md" src="/steak.jpg" width={400}

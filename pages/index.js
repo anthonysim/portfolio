@@ -5,7 +5,6 @@ import Intro from '../components/Intro';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
-
   return (
     <div>
       <Head>
@@ -14,10 +13,12 @@ export default function Home() {
         <link rel="icon" href="/AS.png" />
       </Head>
       <Intro />
-      <div className={styles.container}>
-        <main className={styles.main}>
-          <TechList />
-        </main>
+      <div >
+        <div className={styles.container}>
+          <main className={styles.main}>
+            <TechList />
+          </main>
+        </div>
       </div>
     </div>
   )

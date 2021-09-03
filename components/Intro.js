@@ -7,14 +7,14 @@ import styles from '../styles/Intro.module.css';
 
 export default function Intro() {
   return (
-    <div className="background dark:bg-gray-900 bg-blue-300 relative">
+    <div className="background dark:bg-gray-900 bg-blue-600 relative">
       <div className="md:flex relative">
         <div className={styles.message}>
           <Fade duration={2500} >
-            <p className="text-6xl font-bold">Anthony <span className="text-blue-600">Sim</span></p>
+            <p className="text-6xl font-bold">Anthony <span className="text-blue-300">Sim</span></p>
           </Fade>
           <Fade direction="right" duration={1000} delay={1000}>
-            <p className="text-2xl "><span className="text-blue-600">Fullstack</span> Software Engineer</p>
+            <p className="text-2xl "><span className="text-blue-300 font-extrabold">Fullstack</span> Software Engineer</p>
           </Fade>
           <Fade direction="up" duration={1000} delay={2000}>
             <div>

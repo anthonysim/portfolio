@@ -12,7 +12,7 @@ export default function Background() {
             }
           },
           "size": {
-            "value": 3,
+            "value": 4,
             "random": true,
             "anim": {
               "speed": 4,
@@ -36,7 +36,7 @@ export default function Background() {
               "mode": "bubble"
             },
             "onclick": {
-              "enable": true,
+              "enable": false,
               "mode": "repulse"
             }
           },
