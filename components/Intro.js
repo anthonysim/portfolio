@@ -7,7 +7,7 @@ import styles from '../styles/Intro.module.css';
 
 export default function Intro() {
   return (
-    <div className="background dark:bg-gray-900 bg-blue-600 relative">
+    <div className="background dark:bg-gray-900 bg-blue-600">
       <div className="md:flex relative">
         <div className={styles.message}>
           <Fade duration={2500} >

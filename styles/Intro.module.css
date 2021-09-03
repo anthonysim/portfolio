@@ -35,8 +35,27 @@
 
 .message {
   position: absolute;
-  padding-top: 190px;
+  padding-top: 40px;
   text-align: center;
   width: 100%;
   margin: auto;
+}
+
+
+@media (min-width: 768px) {
+  .message {
+    padding-top: 100px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .message {
+    padding-top: 140px;
+  }
+}
+
+@media (min-width: 1096px) {
+  .message {
+    padding-top: 240px;
+  }
 }
