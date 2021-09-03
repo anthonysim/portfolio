@@ -32,13 +32,13 @@ export default function Cards() {
                 </a>
               </div>
               <br />
-              <p className="text-gray-700 text-base">
+              <p className="text-gray-700 text-base text-center">
                 Pathfinder is a React full-stack application for online video games purchases.
               </p>
             </div>
 
             {/* Pathfinder Tech Used */}
-            <div className="px-6 pt-4 pb-2">
+            <div className="px-6 pt-4 pb-2 text-center">
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">react</span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">aws</span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">styledcomponents</span>
@@ -68,11 +68,11 @@ export default function Cards() {
                 </a>
               </div>
               <br />
-              <p className="text-gray-700 text-base">
+              <p className="text-gray-700 text-base text-center">
                 Factory is a React full-stack application for online courses for purchase.
               </p>
             </div>
-            <div className="px-6 pt-4 pb-2">
+            <div className="px-6 pt-4 pb-2 text-center">
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">react</span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">aws</span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">express</span>
