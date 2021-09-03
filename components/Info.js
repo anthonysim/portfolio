@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { Fade } from "react-awesome-reveal";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 
 export default function Info() {
   return (
@@ -10,7 +12,7 @@ export default function Info() {
           <Image className="rounded-full border border-gray-100 shadow-sm" src="/me.png" width={200}
             height={200} alt="me" priority />
         </div>
-        <div className="text-center md:mr-40">
+        <div className="text-center md:text-left md:mr-48">
           <p>Hello, my name is Anthony Sim, I am a Fullstack Software Engineer from Los Angeles, CA with a background in Accounting, Auditing and Finance.</p>
           <br />
           <p>Besides tech, I enjoy coffee, tacos, traveling, investing in crypto, different perspectives and reading memoirs.</p>
