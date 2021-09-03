@@ -8,7 +8,7 @@ export default function Cards() {
   return (
     <div>
       <Fade duration="1500">
-        <div className="md:flex md:space-x-12 sm:grid-cols-1 place-items-center">
+        <div className="md:flex md:space-x-12 sm:grid-cols-1">
           <div className="dark:bg-gray-900 max-w-sm rounded overflow-hidden shadow-lg">
             {/* Pathfinder */}
             <Image
@@ -48,7 +48,7 @@ export default function Cards() {
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#mongo</span>
             </div>
           </div>
-          <br />
+
           {/* Factory App */}
           <div className="dark:bg-gray-900 max-w-sm rounded overflow-hidden shadow-lg">
             <Image
