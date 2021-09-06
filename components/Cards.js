@@ -32,7 +32,7 @@ export default function Cards() {
                 </a>
               </div>
               <br />
-              <p className="text-gray-700 text-base text-center">
+              <p className="text-black  text-base text-center dark:text-white">
                 Pathfinder is a React full-stack application for online video games purchases.
               </p>
             </div>
@@ -69,7 +69,7 @@ export default function Cards() {
                 </a>
               </div>
               <br />
-              <p className="text-gray-700 text-base text-center">
+              <p className="text-black text-base text-center dark:text-white">
                 Factory is a React full-stack application for online courses for purchase.
               </p>
             </div>
