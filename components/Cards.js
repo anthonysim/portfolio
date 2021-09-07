@@ -39,13 +39,13 @@ export default function Cards() {
 
             {/* Pathfinder Tech Used */}
             <div className="px-6 pt-4 pb-2 text-center">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">react</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">aws</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">styledcomponents</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">framermotion</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">docker</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">express</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">mongo</span>
+              <span className="cardBtn">react</span>
+              <span className="cardBtn">aws</span>
+              <span className="cardBtn">styledcomponents</span>
+              <span className="cardBtn">framermotion</span>
+              <span className="cardBtn">docker</span>
+              <span className="cardBtn">express</span>
+              <span className="cardBtn">mongo</span>
             </div>
           </div>
           <br />
@@ -74,15 +74,15 @@ export default function Cards() {
               </p>
             </div>
             <div className="px-6 pt-4 pb-2 text-center">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">react</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">aws</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">express</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">postgres</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">k6</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">loaderio</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">loaderio</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">newrelic</span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">redis</span>
+              <span className="cardBtn">react</span>
+              <span className="cardBtn">aws</span>
+              <span className="cardBtn">express</span>
+              <span className="cardBtn">postgres</span>
+              <span className="cardBtn">k6</span>
+              <span className="cardBtn">loaderio</span>
+              <span className="cardBtn">loaderio</span>
+              <span className="cardBtn">newrelic</span>
+              <span className="cardBtn">redis</span>
             </div>
           </div>
         </div>

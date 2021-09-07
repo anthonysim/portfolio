@@ -7,7 +7,7 @@ import { FiSun } from "react-icons/fi";
 
 export default function Navbar() {
   const [active, setActive] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme('light');
   const handleClick = () => {
     setActive(!active);
   };
@@ -53,28 +53,28 @@ export default function Navbar() {
             type="button"
             className="pl-12 lg:p-0 h-12 w-12 order-2 md:order-3"
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          >{theme === 'dark' ? <FiSun style={{ fontSize: '20px' }} /> : <FaMoon style={{ color: 'white' }} />}
+          >{theme === 'dark' ? <FiSun style={{ color: 'white', fontSize: '20px' }} /> : <FaMoon style={{ color: 'white' }} />}
           </button>
 
           {/* LINKS */}
-          <div className='pr-12 lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
+          <div className='pr-12 lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto'>
             <Link href='/'>
-              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-50 font-bold items-center justify-center  dark:hover:text-blue-600 hover:text-black uppercase'>
+              <a className='navbar'>
                 Home
               </a>
             </Link>
             <Link href='/portfolio'>
-              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-100 font-bold items-center justify-center dark:hover:text-blue-600 hover:text-black uppercase'>
+              <a className='navbar'>
                 Portfolio
               </a>
             </Link>
             <Link href='/about'>
-              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-200 font-bold items-center justify-center dark:hover:text-blue-600 hover:text-black uppercase'>
+              <a className='navbar'>
                 About
               </a>
             </Link>
             <Link href='/contact'>
-              <a className='pl-12 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-200 font-bold items-center justify-center dark:hover:text-blue-600 hover:text-black uppercase'>
+              <a className='navbar'>
                 Contact
               </a>
             </Link>
