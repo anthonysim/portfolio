@@ -17,7 +17,7 @@ export default function Info() {
           <p>Hello, my name is Anthony Sim, I am a Fullstack Software Engineer from Los Angeles, </p>
           <p>CA with a background in Accounting, Auditing and Finance.</p>
           <br />
-          <p>Besides tech, I enjoy traveling, thinking, investing, eating well, as well as quiet and open spaces.</p>
+          <p>Besides tech, I enjoy traveling, thinking, investing, eating good food, as well as quiet and open spaces.</p>
           <br />
         </div>
       </Fade>

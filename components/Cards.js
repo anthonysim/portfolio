@@ -86,6 +86,43 @@ export default function Cards() {
             </div>
           </div>
         </div>
+        <br />
+        {/* This Portfolio App */}
+        <div className="dark:bg-gray-900 max-w-sm rounded overflow-hidden shadow-lg">
+          <Image
+            src="/portfolio.png"
+            alt="portfolio"
+            width={400}
+            height={250}
+            priority
+          />
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2 text-blue-600 text-center">Portfolio</div>
+            {/* Portfolio Links */}
+            <div className="flex justify-center">
+              <FaGithub style={{ paddingTop: '2px' }} />
+              <a target="_blank" rel="noreferrer" href="https://github.com/anthonysim/portfolio">&nbsp;
+                <span className="underline font-extrabold text-blue-600">Github</span>
+              </a>
+            </div>
+            <br />
+            <p className="text-black text-base text-center dark:text-white">
+              My personal portfolio site that you are currently on which was developed mainly with NextJS and Tailwind CSS. The application was deployed using Vercel.
+            </p>
+          </div>
+          <div className="px-6 pt-4 pb-2 text-center">
+            <span className="cardBtn">nextjs</span>
+            <span className="cardBtn">nextthemes</span>
+            <span className="cardBtn">tailwindcss</span>
+            <span className="cardBtn">reacticons</span>
+            <span className="cardBtn">nodemailer</span>
+            <span className="cardBtn">axios</span>
+            <span className="cardBtn">validator</span>
+            <span className="cardBtn">react-awesome-reveal</span>
+            <span className="cardBtn">react-particles-js</span>
+            <span className="cardBtn">vercel</span>
+          </div>
+        </div>
       </Fade>
     </div >
   )
