@@ -107,7 +107,7 @@ export default function Cards() {
             </div>
             <br />
             <p className="text-black text-base text-center dark:text-white">
-              My personal portfolio site that you are currently on which was developed mainly with NextJS and Tailwind CSS. The application was deployed using Vercel.
+              My personal portfolio site that you are currently on which was developed using NextJS and Tailwind CSS. The application was deployed using Vercel.
             </p>
           </div>
           <div className="px-6 pt-4 pb-2 text-center">
