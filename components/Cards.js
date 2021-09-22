@@ -33,7 +33,7 @@ export default function Cards() {
               </div>
               <br />
               <p className="text-black  text-base text-center dark:text-white">
-                Pathfinder is a React full-stack application for online video games purchases.
+                Pathfinder is a React full-stack application for online video games purchases (desktop only).
               </p>
             </div>
 
