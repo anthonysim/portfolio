@@ -18,7 +18,7 @@ export default function TechList() {
           <div className="uppercase font-bold hidden lg:block">{`< FrontEnd />`}</div>
           <div className="uppercase font-bold hidden lg:block">{`< BackEnd />`}</div>
           <div className="uppercase font-bold hidden lg:block">{`< Testing />`}</div>
-          <div className="uppercase font-bold hidden lg:block">{`< DevTools />`}</div>
+          <div className="uppercase font-bold hidden lg:block">{`< Other />`}</div>
 
           {/* Front-End */}
           <div>
@@ -62,6 +62,7 @@ export default function TechList() {
               <li>Webpack</li>
               <li>Babel</li>
               <li>NPM</li>
+              <li>Azure DevOps</li>
             </ul>
           </div>
         </Fade>
