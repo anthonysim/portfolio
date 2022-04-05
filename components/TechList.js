@@ -23,12 +23,12 @@ export default function TechList() {
           {/* Front-End */}
           <div>
             <ul className="list-disc">
-              <li>Javascript</li>
-              <li>HTML / CSS</li>
+              <li>Javascript / Typescript</li>
+              <li>HTML / CSS / SASS</li>
               <li>React</li>
               <li>Redux</li>
               <li>Tailwind CSS</li>
-              <li>jQuery</li>
+              <li>Bootstrap</li>
               <li>Styled Components</li>
             </ul>
           </div>
@@ -38,12 +38,9 @@ export default function TechList() {
             <ul className="list-disc">
               <li>Axios</li>
               <li>Express.js / Node.js</li>
-              <li>Cassandra</li>
               <li>MongoDB / Mongoose</li>
               <li>mySQL</li>
               <li>Postgres</li>
-              <li>Redis</li>
-              <li>Restful API</li>
             </ul>
           </div>
 
@@ -51,21 +48,20 @@ export default function TechList() {
           <div>
             <ul className="list-disc">
               <li>Chai / Mocha</li>
+              <li>New Relic</li>
+              <li>LoaderIO</li>
               <li>Enzyme</li>
               <li>Jest</li>
-              <li>K6</li>
-              <li>LoaderIO</li>
-              <li>New Relic</li>
             </ul>
           </div>
 
           {/* Dev-Tools */}
           <div>
             <ul className="list-disc">
-              <li>Babel</li>
               <li>Git / Github</li>
-              <li>NPM</li>
               <li>Webpack</li>
+              <li>Babel</li>
+              <li>NPM</li>
             </ul>
           </div>
         </Fade>
