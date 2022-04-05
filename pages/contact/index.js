@@ -28,6 +28,7 @@ export default function Contact() {
           <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900 dark:text-white">Get In <span className="text-blue-600">Touch</span>
           </h3>
           <br />
+          <br />
 
           {/* Email */}
           <div className="text-black text-3xl space-x-8 justify-center pt-4 dark:text-blue-600">
@@ -36,13 +37,13 @@ export default function Contact() {
             </a>
           </div>
         </main>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
       </Fade>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   )
 }
