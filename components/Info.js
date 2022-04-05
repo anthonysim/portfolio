@@ -14,7 +14,7 @@ export default function Info() {
         </div>
         <div className="text-center">
           <br />
-          <p>Hello, my name is Anthony Sim, I am a Fullstack Software Engineer from Los Angeles, </p>
+          <p>Hello, my name is Anthony Sim, I am a Software Engineer from Los Angeles, </p>
           <p>CA with a background in Accounting, Auditing and Finance.</p>
           <br />
           <p>Besides tech, I enjoy traveling, thinking, investing, eating good food, as well as quiet and open spaces.</p>

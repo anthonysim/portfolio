@@ -14,7 +14,7 @@ export default function Intro() {
             <p className="text-6xl font-bold">Anthony <span className="text-blue-300">Sim</span></p>
           </Fade>
           <Fade direction="right" duration={900} delay={800}>
-            <p className="text-2xl font-extrabold">Fullstack <span className="text-blue-300">Software </span>Engineer</p>
+            <p className="text-2xl font-extrabold"><span className="text-blue-300">Software </span>Engineer</p>
           </Fade>
           <Fade direction="up" duration={900} delay={1800}>
             <div>
