@@ -24,10 +24,10 @@ export default function Cards() {
               <div className="flex justify-center">
                 <FaDesktop style={{ paddingTop: '2px' }} />
                 <a target="_blank" rel="noreferrer" href="http://3.91.34.52:3000/1">&nbsp;
-                  <span className="underline font-extrabold text-blue-600">Live</span>
+                  <span className="underline font-extrabold text-blue-600">Demo</span>
                 </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <FaGithub style={{ paddingTop: '2px' }} />
-                <a target="_blank" rel="noreferrer" href="https://github.com/rpt26-fec-pathfinder/anthony-photo-gallery-service">&nbsp;
+                <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1rfPGLxtbYbj-o4c6W4brkdPLLKnoJXWw/view?usp=sharing">&nbsp;
                   <span className="underline font-extrabold text-blue-600">Github</span>
                 </a>
               </div>
