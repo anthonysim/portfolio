@@ -23,7 +23,8 @@ export default function TechList() {
           {/* Front-End */}
           <div>
             <ul className="list-disc">
-              <li>React</li>
+              <li>React.js</li>
+              <li>Next.js</li>
               <li>Javascript | Typescript</li>
               <li>HTML | CSS | SASS</li>
               <li>Redux</li>
