@@ -25,7 +25,7 @@ export default function Contact() {
         <main className={styles.main}>
 
           {/* Get In Touch */}
-          <h3 className="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900 dark:text-white">Get In <span className="text-blue-600">Touch</span>
+          <h3 className="text-3xl pt-10 sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900 dark:text-white">Get In <span className="text-blue-600">Touch</span>
           </h3>
           <br />
           <br />
@@ -36,16 +36,17 @@ export default function Contact() {
               <span className="">email: </span> <AiOutlineMail className="inline-block dark:text-white" />
             </a>
           </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </main>
       </Fade>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </div>
   )
 }

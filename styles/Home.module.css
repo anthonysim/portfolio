@@ -22,15 +22,12 @@
 
 .footer {
   border-top: 1px solid #eaeaea;
-  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  flex-shrink: 0;
+  /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
   padding: 17px;
   color: black;
-  opacity: 75%;
   text-align: center;
 }
-
-
-
 
 @media (max-width: 600px) {
   .grid {
@@ -38,4 +35,3 @@
     flex-direction: column;
   }
 }
-
