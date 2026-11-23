@@ -1,9 +1,12 @@
-import Particles from "react-particles-js";
+import Particles from "react-tsparticles";
 
 export default function Background() {
   return (
     <Particles
-      params={{
+      options={{
+        "fullScreen": {
+          "enable": false
+        },
         "particles": {
           "number": {
             "value": 160,

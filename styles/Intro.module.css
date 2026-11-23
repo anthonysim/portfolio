@@ -1,3 +1,17 @@
+.hero {
+  position: relative;
+  height: 50vw;
+  min-height: 300px;
+  max-height: calc(100vh - 72px);
+  overflow: hidden;
+}
+
+.hero canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .button {
   background-color: #3aa0e4;
   width: 95px;
@@ -35,6 +49,7 @@
 
 .message {
   position: absolute;
+  z-index: 1;
   padding-top: 40px;
   text-align: center;
   width: 100%;
@@ -55,6 +70,10 @@
 }
 
 @media (min-width: 1096px) {
+  .hero {
+    min-height: 450px;
+  }
+
   .message {
     padding-top: 240px;
   }
