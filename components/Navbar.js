@@ -7,7 +7,7 @@ import { FiSun } from "react-icons/fi";
 
 export default function Navbar() {
   const [active, setActive] = useState(false);
-  const { theme, setTheme } = useTheme('light');
+  const { resolvedTheme, setTheme } = useTheme();
   const handleClick = () => {
     setActive(!active);
   };
@@ -15,12 +15,10 @@ export default function Navbar() {
   return (
     <div>
       <nav className='text flex items-center flex-wrap p-3 bg-blue-600 dark:bg-gray-900 relative'>
-        <Link href='/'>
-          <a className='inline-flex items-center pl-12 p-2 mr-4'>
-            <span className='text-xl text-white dark:hover:text-blue-600 hover:text-black font-bold uppercase tracking-wide'>
-              {'< AnthonySim />'}
-            </span>
-          </a>
+        <Link href='/' className='inline-flex items-center pl-12 p-2 mr-4'>
+          <span className='text-xl text-white dark:hover:text-blue-600 hover:text-black font-bold uppercase tracking-wide'>
+            {'< AnthonySim />'}
+          </span>
         </Link>
         <button
           className=' inline-flex p-3 hover:bg-blue-400 rounded lg:hidden text-white ml-auto hover:text-white outline-none'
@@ -52,31 +50,26 @@ export default function Navbar() {
             aria-label="Toggle Dark Mode"
             type="button"
             className="pl-12 lg:p-0 h-12 w-12 order-2 md:order-3"
-            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          >{theme === 'dark' ? <FiSun style={{ color: 'white', fontSize: '20px' }} /> : <FaMoon style={{ color: 'white' }} />}
+            onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
+          >
+            {/* CSS picks the icon so server and client markup always match */}
+            <FiSun className="hidden dark:block" style={{ color: 'white', fontSize: '20px' }} />
+            <FaMoon className="block dark:hidden" style={{ color: 'white' }} />
           </button>
 
           {/* LINKS */}
           <div className='pr-12 lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto'>
-            <Link href='/'>
-              <a className='navbar'>
-                Home
-              </a>
+            <Link href='/' className='navbar'>
+              Home
             </Link>
-            <Link href='/portfolio'>
-              <a className='navbar'>
-                Portfolio
-              </a>
+            <Link href='/portfolio' className='navbar'>
+              Portfolio
             </Link>
-            <Link href='/about'>
-              <a className='navbar'>
-                About
-              </a>
+            <Link href='/about' className='navbar'>
+              About
             </Link>
-            <Link href='/contact'>
-              <a className='navbar'>
-                Contact
-              </a>
+            <Link href='/contact' className='navbar'>
+              Contact
             </Link>
           </div>
         </div>

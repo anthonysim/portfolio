@@ -9,8 +9,8 @@ export default function Info() {
     <div className="grid grid-cols-1 place-items-center">
       <Fade>
         <div className="">
-          <Image className="rounded-full border border-gray-100 shadow-sm" src="/me.png" width={200}
-            height={200} alt="me" priority />
+          <Image className="image-avatar rounded-full border border-gray-100 shadow-sm" src="/me.png" width={200}
+            height={200} alt="me" loading="eager" />
         </div>
         <div className="text-center">
           <br />

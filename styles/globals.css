@@ -10,6 +10,16 @@
   @apply inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2;
 }
 
+/* next/image no longer wraps images, so keep their fixed aspect ratio here */
+.image-card {
+  width: 400px;
+  aspect-ratio: 400 / 250;
+}
+
+.image-avatar {
+  width: 200px;
+  aspect-ratio: 1;
+}
 
 html,
 body {

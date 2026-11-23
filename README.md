@@ -13,7 +13,7 @@
 - [TailwindCSS](https://tailwindcss.com)
 - [React Icons](https://react-icons.github.io/react-icons)
 - [react-awesome-reveal](https://github.com/morellodev/react-awesome-reveal)
-- [react-particles-js](https://www.npmjs.com/package/react-particles-js)
+- [tsParticles](https://github.com/tsparticles/tsparticles)
 - [Vercel](https://vercel.com)
 
 ## Usage
