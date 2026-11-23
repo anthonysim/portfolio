@@ -16,12 +16,12 @@ export default function Contact() {
 
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Anthony Sim | Contact</title>
+        <meta name="description" content="Anthony Sim Portfolio Site" />
+        <link rel="icon" href="/AS.png" />
+      </Head>
       <Fade>
-        <Head>
-          <title>Anthony Sim | Contact</title>
-          <meta name="description" content="Anthony Sim Portfolio Site" />
-          <link rel="icon" href="/AS.png" />
-        </Head>
         <main className={styles.main}>
 
           {/* Get In Touch */}

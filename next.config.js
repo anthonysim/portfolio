@@ -1,6 +1,12 @@
 module.exports = {
   reactStrictMode: true,
+  agentRules: false,
   images: {
-    domains: ['asim-portfolio.s3.us-west-1.amazonaws.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'asim-portfolio.s3.us-west-1.amazonaws.com',
+      },
+    ],
   },
 }

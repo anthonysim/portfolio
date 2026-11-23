@@ -7,16 +7,17 @@ import { Fade } from "react-awesome-reveal";
 export default function Cards() {
   return (
     <div>
-      <Fade duration="1500">
+      <Fade duration={1500}>
         <div className="md:flex md:space-x-12 sm:grid-cols-1">
           <div className="dark:bg-gray-900 max-w-sm rounded overflow-hidden shadow-lg">
             {/* Pathfinder */}
             <Image
+              className="image-card"
               src="/gallery.png"
               alt="image gallery"
               width={400}
               height={250}
-              priority
+              loading="eager"
             />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2 text-blue-600 text-center">Pathfinder</div>
@@ -53,11 +54,12 @@ export default function Cards() {
           {/* Factory App */}
           <div className="dark:bg-gray-900 max-w-sm rounded overflow-hidden shadow-lg">
             <Image
+              className="image-card"
               src="/title.png"
               alt="title"
               width={400}
               height={250}
-              priority
+              loading="eager"
             />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2 text-blue-600 text-center">Factory</div>
@@ -90,11 +92,12 @@ export default function Cards() {
         {/* This Portfolio App */}
         <div className="dark:bg-gray-900 max-w-sm rounded overflow-hidden shadow-lg">
           <Image
+              className="image-card"
             src="/portfolio.png"
             alt="portfolio"
             width={400}
             height={250}
-            priority
+            loading="eager"
           />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2 text-blue-600 text-center">Portfolio</div>

@@ -7,13 +7,15 @@ import ScrollToTop from '../components/ScrollToTop';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       </Head>
       <ThemeProvider attribute="class">
         <Navbar />
-        <Component {...pageProps} />
+        <div className="flex-grow">
+          <Component {...pageProps} />
+        </div>
         <ScrollToTop />
         <Footer />
       </ThemeProvider>
